@@ -10,7 +10,7 @@ public class App {
 
         for (int i = 0; i <= 8; i++) {
             Random numero = new Random();
-            char a = (char) (33 + numero.nextInt(127));
+            char a = (char) (33 + numero.nextInt(125));
             senha = senha + a;
         }
 
@@ -32,13 +32,5 @@ public class App {
 
     public static void main(String[] args) throws Exception {
        looping();
-
-       for (int i = 33; i <= 127; i++) {
-        char a = (char) i;
-       
-        System.out.println(a);
-
-
-    }
     }
 }
