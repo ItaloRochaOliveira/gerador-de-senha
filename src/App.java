@@ -10,7 +10,7 @@ public class App {
 
         for (int i = 0; i <= 8; i++) {
             Random numero = new Random();
-            char a = (char) (33 + numero.nextInt(125));
+            char a = (char) (33 + numero.nextInt(92));
             senha = senha + a;
         }
 
